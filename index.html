@@ -49,27 +49,27 @@
   
  <div class="card"> 
  <form id="my_form2" onsubmit="return false">
-   <label value=''><h5>Survey:</h5></label><br>
+   <h5>Survey:</h5><br>
    <p>Select your favorite activity (or activities):</p>
    <input type='checkbox' name='bike' value=''>
-   <label for='bike'>Mountain Biking</label><br>
+   <label id='bike'>Mountain Biking</label><br>
    <input type='checkbox' name='bike' value=''>
-   <label for='kayak'>Kayaking</label><br>
+   <label id='kayak'>Kayaking</label><br>
    <input type='checkbox' name='bike' value=''>
-   <label for='fish'>Fishing</label><br>
+   <label id='fish'>Fishing</label><br>
    <input type='checkbox' name='bike' value=''>
-   <label for='hunt'>Hunting</label><br>
+   <label id='hunt'>Hunting</label><br>
    <input type='checkbox' name='bike' value=''>
-   <label for='bike'>Hiking</label><br><br>
+   <label id='hike'>Hiking</label><br><br>
    
    <p>How long do you usually spend outside during the week?</p>
-    <input type='radio' name='bike' value=''>Less than 5 hours</input><br>
-    <input type='radio' name='bike' value=''>5 to 15 hours</input><br>
-    <input type='radio' name='bike' value=''>More than 15 hours</input><br><br>
+    <input type='radio' name='bike' value=''>Less than 5 hours<br>
+    <input type='radio' name='bike' value=''>5 to 15 hours<br>
+    <input type='radio' name='bike' value=''>More than 15 hours<br><br>
   
     <label for="cars">Choose your favorite destination:</label>
 
-<select name="cars" id="cars" value='Select from below'>
+<select name="cars" id="cars">
   <option value="volvo">Grand Teton</option>
   <option value="saab">Yellowstone</option>
   <option value="mercedes">Great Smoky Mountains</option>
@@ -78,10 +78,10 @@
     
   
   <p>And finally... Specify any place in the world you would enjoy exploring the outdoors.</p>
-    <input type='textarea' id='text' value='' placeholder='Ex. Athens, Greece'><br><br>
+    <input type='text' id='text' value='' placeholder='Ex. Athens, Greece'><br><br>
   
  <p>Do You Love the Outdoors?</p>
-  <select id="select-list"><br><br>
+  <select id="select-list">
   <option value="">Select an option</option>
   <option value="yes">Yes</option>
   <option value="no">No</option>
@@ -94,6 +94,10 @@
    
 </form>
 </div>
+
+<footer>
+  <a href='https://validator.w3.org/nu/#textarea' target="_blank">Nu Validator</a>
+</footer>
   
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
