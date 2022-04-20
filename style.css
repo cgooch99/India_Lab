@@ -25,3 +25,8 @@ form {
   background-color: black;
   margin-left: 20px;
 }
+
+#footer {
+  padding: 20px;
+  color: black;
+}
